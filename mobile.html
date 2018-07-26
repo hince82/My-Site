@@ -1,0 +1,316 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+    <link rel="stylesheet" type="text/css" href="mobcss.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <title>Halit INCE</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+   
+</head> 
+    <body >
+        
+        <!-- home page -->
+        <div data-role="page" id="home"  data-theme="none" >
+            <div data-role="header" id="idHeader" data-theme="b" >
+                <h1>Halit INCE</h1>
+                <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+            </div><!-- /header -->
+
+            <div data-role="content" >
+                <div class="article" >
+                    <p><img src="resimler/me.jpg" width="400" height="200" alt="ME"></p>
+                    <h2>Hi!</h2>
+                    <p>I am a developer. This is the mobile site of my personal site </p>
+                    <p><a href="#right-panel" data-role="button" data-theme="b" data-inline="true" data-mini="true" data-shadow="false">Connect</a></p>
+                  </div><!-- /article -->
+                </div><!-- /content -->
+            <div data-role="panel"  data-theme="none"  id="left-panel"  >
+                <ul data-role="listview" data-theme="none" >
+                    <li class="list" data-icon="delete" ><a href="#" data-rel="close">Close</a></li>
+                    <li class="list" data-role="list-divider">Menu</li>
+                    <li class="list" data-icon="home" ><a href="#home">Home</a></li>
+                    <li data-role="collapsible" data-theme="none" class="list" data-iconpos="right" data-shadow="false" data-corners="false" style="margin:0px; padding:0px;">
+                        <h1><a>Profile</a></h1>
+                        <ul data-role="listview" data-theme="none" >
+                            <li class="collList"><a href="#interests">Interests</a></li>
+                            <li class="collList"><a href="#experience">Experience</a></li>
+                            <li class="collList"><a href="#education">Education</a></li>
+                        </ul>
+                    </li>
+                    <li class="list" > <a href="#languages">Languages</a></li>
+                    <li class="list" > <a href="#aboutme">About Me</a></li>
+                </ul>
+            </div><!-- /panel -->
+            <div data-role="panel" data-theme="none"id="right-panel" data-position="right" >
+                <ul data-role="listview" data-theme="none" data-icon="false">
+                    <li class="list" data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+                    <li class="list" data-role="list-divider">Contact</li>
+                    <li class="list" ><a href="https://twitter.com/halit93374516">Twitter</a></li>
+                    <li class="list" ><a href="https://www.linkedin.com/in/halit-ince-a4a360157">LinkedIn</a></li>
+                    <li class="list" ><a href="https://github.com/hince82">GitHub</a></li>
+                    <li class="list" ><a href="mailto:hince82@yahoo.com?subject=Hi, Halit!">Mail</a></li>
+                </ul>
+            </div><!-- /panel -->
+        </div>
+               
+
+        <!-- Languages -->
+        <div data-role="page" data-theme="none" id="languages" >
+            <div data-role="header" data-theme="b">
+                <h1>Halit Ince</h1>
+                <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+            </div><!-- /header -->
+            <div data-role="content">
+                <div class="article">
+                    <div>
+                        <div class="circle floater">HTML</div>
+                        <div class="circle floater">CSS</div>
+                        <div class="circle floater">Javascript</div>
+                        <div class="circle floater">JQuery</div>
+                    </div>
+
+                    <p><a href="#right-panel" data-role="button" data-theme="b" data-inline="true" data-mini="true" data-shadow="false">Connect</a></p>
+                </div><!-- /article -->
+            </div><!-- /content -->
+            <div data-role="panel"  data-theme="none"  id="left-panel"  >
+                <ul data-role="listview" data-theme="none" >
+                    <li class="list" data-icon="delete" ><a href="#" data-rel="close">Close</a></li>
+                    <li class="list" data-role="list-divider">Menu</li>
+                    <li class="list" data-icon="home" ><a href="#home">Home</a></li>
+                    <li data-role="collapsible" data-theme="none" class="list" data-iconpos="right" data-shadow="false" data-corners="false" style="margin: 0px; padding: 0px;">
+                        <h1><a>Profile</a></h1>
+                        <ul data-role="listview" data-theme="none" >
+                            <li class="collList"><a href="#interests">Interests</a></li>
+                            <li class="collList"><a href="#experience">Experience</a></li>
+                            <li class="collList"><a href="#education">Education</a></li>
+                        </ul>
+                    </li>
+                    <li class="list" > <a href="#languages">Languages</a></li>
+                    <li class="list" > <a href="#aboutme">About Me</a></li>
+                </ul>
+            </div><!-- /panel -->
+            <div data-role="panel" data-theme="none"id="right-panel" data-position="right" >
+                <ul data-role="listview" data-theme="none" data-icon="false">
+                    <li class="list" data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+                    <li class="list" data-role="list-divider">Contact</li>
+                    <li class="list"><a href="https://twitter.com/halit93374516">Twitter</a></li>
+                    <li class="list"><a href="https://www.linkedin.com/in/halit-ince-a4a360157">LinkedIn</a></li>
+                    <li class="list"><a href="https://github.com/hince82">GitHub</a></li>
+                    <li class="list"><a href="mailto:hince82@yahoo.com?subject=Hi, Halit!">Mail</a></li>
+                </ul>
+            </div><!-- /panel -->
+        </div>
+        <!-- About Me -->
+        <div data-role="page" id="aboutme" data-theme="none" data-url="demo-page">
+            <div data-role="header" data-theme="b">
+                <h1>Halit ince</h1>
+                <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+            </div><!-- /header -->
+            <div data-role="content">
+                <div class="article">
+                    <div>
+                        <h1>About Me</h1>
+                        Hi! I'm an IT Teacher in Istanbul. I had teached javascript,c# and web design tools for 12 years in a
+                        high school. Nowadays i work in a huge primary school with 150 teachers and consulting them about tech tools and solving
+                        IT problems. Recently decide an improvement in my career and got a C# certificate from Microsoft early this year.
+                        Altough i'm a newbee at professional developing i have more than enough work experience and
+                        i have the passion and the discipline to learn fast.
+                        I also have a Bulgarian (European) citizenship so i
+                        can travel and work anywhere in Europe,UK and Switzerland even though i work in Turkey.
+
+                    </div>
+                    <p><a href="#right-panel" data-role="button" data-theme="b" data-inline="true" data-mini="true" data-shadow="false">Connect</a></p>
+                </div><!-- /article -->
+            </div><!-- /content -->
+            <div data-role="panel" data-theme="none" id="left-panel">
+                <ul data-role="listview" data-theme="none">
+                    <li class="list" data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+                    <li class="list" data-role="list-divider">Menu</li>
+                    <li class="list" data-icon="home"><a href="#home">Home</a></li>
+                    <li data-role="collapsible" data-theme="none" class="list" data-iconpos="right" data-shadow="false" data-corners="false" style="margin:0px; padding:0px;">
+                        <h1><a>Profile</a></h1>
+                        <ul data-role="listview" data-theme="none">
+                            <li class="collList"><a href="#interests">Interests</a></li>
+                            <li class="collList"><a href="#experience">Experience</a></li>
+                            <li class="collList"><a href="#education">Education</a></li>
+                        </ul>
+                    </li>
+                    <li class="list"> <a href="#languages">Languages</a></li>
+                    <li class="list"> <a href="#aboutme">About Me</a></li>
+                </ul>
+            </div><!-- /panel -->
+            <div data-role="panel" data-theme="none" id="right-panel" data-position="right">
+                <ul data-role="listview" data-theme="none" data-icon="false">
+                    <li class="list" data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+                    <li class="list" data-role="list-divider">Contact</li>
+                    <li class="list"><a href="https://twitter.com/halit93374516">Twitter</a></li>
+                    <li class="list"><a href="https://www.linkedin.com/in/halit-ince-a4a360157">LinkedIn</a></li>
+                    <li class="list"><a href="https://github.com/hince82">GitHub</a></li>
+                    <li class="list"><a href="mailto:hince82@yahoo.com?subject=Hi, Halit!">Mail</a></li>
+                </ul>
+            </div><!-- /panel -->
+        </div>
+        <!-- interests -->
+        <div data-role="page" id="interests" data-theme="none" data-url="demo-page">
+            <div data-role="header" data-theme="b">
+                <h1>Halit ince</h1>
+                <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+            </div><!-- /header -->
+            <div data-role="content">
+                <div class="article">
+                    <div>
+                        <h1>Interests</h1>
+                        <p>
+                            <ul>
+                                <li> Politics</li>
+                                <li> Investing</li>
+                                <li> App Design</li>
+                                <li> Photoshop</li>
+                                <li> Science-Fiction</li>
+                                <li> Space</li>
+                                <li> Cars</li>
+                                <li> Horror Movies</li>
+                                <li> Chess</li>
+                                <li> Live Concerts</li>
+                                <li> Trying to play my guitar</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <p><a href="#right-panel" data-role="button" data-theme="b" data-inline="true" data-mini="true" data-shadow="false">Connect</a></p>
+                </div><!-- /article -->
+            </div><!-- /content -->
+            <div data-role="panel"  data-theme="none"  id="left-panel"  >
+                <ul data-role="listview" data-theme="none" >
+                    <li class="list" data-icon="delete" ><a href="#" data-rel="close">Close</a></li>
+                    <li class="list" data-role="list-divider">Menu</li>
+                    <li class="list" data-icon="home" ><a href="#home">Home</a></li>
+                    <li data-role="collapsible" data-theme="none" class="list" data-iconpos="right" data-shadow="false" data-corners="false" style="margin: 0px; padding: 0px;">
+                        <h1><a>Profile</a></h1>
+                        <ul data-role="listview" data-theme="none" >
+                            <li class="collList"><a href="#interests">Interests</a></li>
+                            <li class="collList"><a href="#experience">Experience</a></li>
+                            <li class="collList"><a href="#education">Education</a></li>
+                        </ul>
+                    </li>
+                    <li class="list" > <a href="#languages">Languages</a></li>
+                    <li class="list" > <a href="#aboutme">About Me</a></li>
+                </ul>
+            </div><!-- /panel -->
+            <div data-role="panel" data-theme="none"id="right-panel" data-position="right" >
+                <ul data-role="listview" data-theme="none" data-icon="false">
+                    <li class="list" data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+                    <li class="list" data-role="list-divider">Contact</li>
+                    <li class="list"><a href="https://twitter.com/halit93374516">Twitter</a></li>
+                    <li class="list"><a href="https://www.linkedin.com/in/halit-ince-a4a360157">LinkedIn</a></li>
+                    <li class="list"><a href="https://github.com/hince82">GitHub</a></li>
+                    <li class="list"><a href="mailto:hince82@yahoo.com?subject=Hi, Halit!">Mail</a></li>
+                </ul>
+            </div><!-- /panel -->
+        </div>
+        <!-- Experience-->
+        <div data-role="page" id="experience" data-theme="none" >
+            <div data-role="header" data-theme="b">
+                <h1>Halit ince</h1>
+                <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+            </div><!-- /header -->
+            <div data-role="content">
+                <div class="article">
+                    <div>
+                        <h1>Experience</h1>
+                        <p>
+                            <ul>
+                                <li> Marmara Univercity Coding Club 'Code Clubbers',2002-2004</li>
+                                <li> IT Teacher, IBB Aksemsettin Primary School,2004-2016</li>
+                                <li> Web Design Teacher , Ogrenciden Armagan High School,2016-2018</li>
+
+                            </ul>
+                        </p>
+                    </div>
+                    <p><a href="#right-panel" data-role="button" data-theme="b" data-inline="true" data-mini="true" data-shadow="false">Connect</a></p>
+                </div><!-- /article -->
+            </div><!-- /content -->
+            <div data-role="panel" data-theme="none" id="left-panel">
+                <ul data-role="listview" data-theme="none">
+                    <li class="list" data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+                    <li class="list" data-role="list-divider">Menu</li>
+                    <li class="list" data-icon="home"><a href="#home">Home</a></li>
+                    <li data-role="collapsible" data-theme="none" class="list" data-iconpos="right" data-shadow="false" data-corners="false" style="margin:0px; padding:0px;">
+                        <h1><a>Profile</a></h1>
+                        <ul data-role="listview" data-theme="none">
+                            <li class="collList"><a href="#interests">Interests</a></li>
+                            <li class="collList"><a href="#experience">Experience</a></li>
+                            <li class="collList"><a href="#education">Education</a></li>
+                        </ul>
+                    </li>
+                    <li class="list"> <a href="#languages">Languages</a></li>
+                    <li class="list"> <a href="#aboutme">About Me</a></li>
+                </ul>
+            </div><!-- /panel -->
+            <div data-role="panel" data-theme="none" id="right-panel" data-position="right">
+                <ul data-role="listview" data-theme="none" data-icon="false">
+                    <li class="list" data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+                    <li class="list" data-role="list-divider">Contact</li>
+                    <li class="list"><a href="https://twitter.com/halit93374516">Twitter</a></li>
+                    <li class="list"><a href="https://www.linkedin.com/in/halit-ince-a4a360157">LinkedIn</a></li>
+                    <li class="list"><a href="https://github.com/hince82">GitHub</a></li>
+                    <li class="list"><a href="mailto:hince82@yahoo.com?subject=Hi, Halit!">Mail</a></li>
+                </ul>
+            </div><!-- /panel -->
+        </div>
+            <!-- Education-->
+        <div data-role="page" id="education" data-theme="none" >
+            <div data-role="header" data-theme="b">
+                <h1>Halit ince</h1>
+                <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+            </div><!-- /header -->
+            <div data-role="content">
+                <div class="article">
+                    <div>
+                        <h1>Education</h1>
+                        <p>
+                            <ul>
+                                <li> Bolu Anadolu Technical High School Computer Science,1996-2000</li>
+                                <li> Istanbul Marmara Univercity, Computer Education and Instructional Technologies, 2000-2004</li>
+                                <li> Bilge Adam Career Center, Software(.Net) Certification Program, 2017</li>
+                                <li> Microsoft Programming in C# (70-483) Certificate, 2018</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <p><a href="#right-panel" data-role="button" data-theme="b" data-inline="true" data-mini="true" data-shadow="false">Connect</a></p>
+                </div><!-- /article -->
+            </div><!-- /content -->
+           <div data-role="panel"  data-theme="none"  id="left-panel"  >
+                <ul data-role="listview" data-theme="none" >
+                    <li class="list" data-icon="delete" ><a href="#" data-rel="close">Close</a></li>
+                    <li class="list" data-role="list-divider">Menu</li>
+                    <li class="list" data-icon="home" ><a href="#home">Home</a></li>
+                    <li data-role="collapsible" data-theme="none" class="list" data-iconpos="right" data-shadow="false" data-corners="false" style="margin: 0px; padding: 0px;">
+                        <h1><a>Profile</a></h1>
+                        <ul data-role="listview" data-theme="none" >
+                            <li class="collList"><a href="#interests">Interests</a></li>
+                            <li class="collList"><a href="#experience">Experience</a></li>
+                            <li class="collList"><a href="#education">Education</a></li>
+                        </ul>
+                    </li>
+                    <li class="list" > <a href="#languages">Languages</a></li>
+                    <li class="list" > <a href="#aboutme">About Me</a></li>
+                </ul>
+            </div><!-- /panel -->
+            <div data-role="panel" data-theme="none"id="right-panel" data-position="right" >
+                <ul data-role="listview" data-theme="none" data-icon="false">
+                    <li class="list" data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+                    <li class="list" data-role="list-divider">Contact</li>
+                    <li class="list"><a href="https://twitter.com/halit93374516">Twitter</a></li>
+                    <li class="list"><a href="https://www.linkedin.com/in/halit-ince-a4a360157">LinkedIn</a></li>
+                    <li class="list"><a href="https://github.com/hince82">GitHub</a></li>
+                    <li class="list"><a href="mailto:hince82@yahoo.com?subject=Hi, Halit!">Mail</a></li>
+                </ul>
+            </div><!-- /panel -->
+        </div>
+</body> 
+    
+</html> 

@@ -1,0 +1,321 @@
+/*
+Halit ince
+    My PERSONAL SITE
+ 
+
+*/
+
+
+#menu li{
+	display:inline;
+	float: left;
+	width: 20%;
+	text-align:center;
+}
+
+
+
+#menu a:link, a:visited{
+	font-weight: bold;
+	color: #C55186;
+	background-color: #ffffff;
+	text-decoration: none;
+	text-transform:uppercase;
+	text-transform:uppercase;
+}
+#menu a:hover, #menu a:active{ 
+	color: #3E4957;
+}
+#menu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: none;
+}
+
+#menu a{
+	display: block;
+	width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+body{
+	margin-top: 0;
+	padding-top:0;
+	margin-left: 0;
+	margin-right: 0;
+	background:#D9E6F7 url("resimler/macbook.jpg") no-repeat right top;
+	background-size: 100% auto;
+	background-attachment: fixed;
+	font-family: Lato;
+}
+
+div#languages {
+    background: #D9E6F7 url("resimler/macbookgri.jpg") no-repeat right top;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+
+div#contact {
+    background: #D9E6F7 url("resimler/macbookgri.jpg") no-repeat right top;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+
+#home {
+	padding: 1.3em;
+	color: #ffffff;
+	text-align: right;
+	z-index: 0;
+}
+
+#profile {
+    background-color: #C55186;
+    padding: 1.3em ;
+    position: relative;
+    z-index: 1;
+}
+
+#about {
+	background-color: #D9E6F7;
+	padding: 1.3em;
+	color: #3E4957;
+	position: relative;
+	z-index: 1;
+}
+
+#languages {
+	padding: 1.3em;
+	color: #3E4957;
+	z-index: 0;
+}
+
+#contact {
+	padding: 20px;
+	color: #ffffff;
+	text-align: right;
+	z-index: 0;
+}
+
+#menu{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	line-height: 60px;
+	z-index: 10;
+}
+
+
+
+.section{
+	margin-top: 5%;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 5%%;
+}
+
+div#skillset{
+	width: 14em;
+}
+
+div#experience{
+	width: 45em;
+}
+
+div.circle {
+    border-radius: 50%;
+    background-color: #C55186;
+    color: white;
+    margin-top: 5em;
+    text-align: center;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+div.floater{
+	float:left;
+}
+
+div.button{
+	background-color: #D9E6F7;
+	line-height: 50px;
+	text-align: center;
+	outline-color: #3E4957;
+	color: #3E4957;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	z-index: 1;
+	position: relative;
+	top: 18px;
+}
+
+div.button:hover{
+	color: #C55186;
+}
+
+div.slideOut{
+	background-color: #3E4957;
+	color: #D9E6F7;
+	height: 400px;
+	position: absolute;
+	font-size: 80%;
+}
+
+div.slideContainer{
+	float:left;
+}
+
+
+#home h1, #contact #email h2{
+	margin-top: 10%;
+}
+
+div.innerSlide{
+	margin: 30px 30px;
+}
+
+#scrollTop{
+	text-decoration: none;
+	width: 30px;
+	line-height: 30px;
+	text-align: center;
+	position:fixed;
+	right:11%;
+	color: white;
+	font-size: 120%;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 50%;
+	border: white solid;
+	font-size: 150%;
+	display: none;
+	opacity: 0.7;
+}
+
+#career{
+	width:100%;
+	float:right;
+
+    font-weight: bold;
+	font-size: 100%;
+	vertical-align: top;
+}
+
+#career h1{
+	margin-top: 0;
+}
+
+img {
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    width: 30%;
+    margin-right: 2%;
+    border-radius: 50%;
+}
+
+div#email{
+	background-color: #C55186;
+	line-height: 0;
+	text-align: center;
+	outline-color: #3E4957;
+	color: white;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	width: 300px;
+	position: absolute;
+	right: 10%;
+	vertical-align: middle;
+}
+
+#email a{
+	text-decoration: none;
+	color: white;
+}
+
+#email a:hover{
+	color: #D9E6F7;
+}
+
+div.button{
+	background-color: #D9E6F7;
+	
+	text-align: center;
+	outline-color: #3E4957;
+	color: #3E4957;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	z-index: 1;
+
+
+}
+
+div.credit{
+	position: fixed;
+	bottom: 10px;
+	right: 10%;
+	text-decoration: none;
+	z-index: 0;
+	font-weight: 100;
+	font-size: 80%;
+}
+
+div.credit a{
+	color: #C55186;
+	text-decoration: none;
+}
+
+div.credit a:hover{
+	color:#fff;
+}
+
+.slideOut ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.slideOut li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+.slideOut li:before {
+    content: "* ";
+    color: #C55186; 
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: #430297;
+    color: white;
+}
+

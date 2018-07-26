@@ -1,0 +1,47 @@
+﻿
+img {
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    width: 30%;
+    margin-right: 2%;
+    border-radius: 50%;
+}
+body {
+    background-color: #D9E6F7;
+    background-image: url(resimler/macbook.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: Helvetica, Verdana, sans-serif;
+}
+div.circle {
+    border-radius: 50%;
+    background-color: #C55186;
+    color: white;
+    margin-top: 2em;
+    text-align: center;
+    font-size: 130%;
+    height: 4em;
+    width: 6em;
+    padding-top: 2em;
+
+}
+
+div.floater {
+    float: left;
+    position:relative;
+
+  
+}
+
+
+li.collList a {
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+    color: black;
+}
+.list a {
+    text-decoration: none;
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+    color: #C55186;
+    font-weight:bold;
+}
