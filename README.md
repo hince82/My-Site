@@ -1,5 +1,5 @@
 # My-Site
-Javascript,Jquery,Xml,Ajax,HTML,CSS
+
 INDEX.html
 links to the jquery library, and my personal js and css files.
 This contains a navigation menu list, and sections: home, about, languages, 
